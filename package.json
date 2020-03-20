@@ -1,14 +1,26 @@
 {
-  "name": "react-chat-app",
+  "name": "react-react-chat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "emoji-mart": "^2.11.1",
+    "firebase": "^6.1.0",
+    "md5": "^2.2.1",
+    "mime-types": "^2.1.24",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-avatar-editor": "^11.0.7",
+    "react-color": "^2.17.3",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "react-loading-skeleton": "^2.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.1",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
