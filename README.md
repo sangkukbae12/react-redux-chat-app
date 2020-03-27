@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :repeat: 리액트 채팅 웹앱
 
-## Available Scripts
+> 채널 개설 및 다이렉트 메시지 보내기가 가능한 실시간 채팅 앱입니다. :smile:
 
-In the project directory, you can run:
 
-### `yarn start`
+**로그인 페이지**   
+![](https://i.imgur.com/7UPQz74.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**메인 페이지**   
+![](https://i.imgur.com/EbGOBzI.jpg)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+:gem: 데모: [https://react-redux-slack-1c966.firebaseapp.com/](https://react-redux-slack-1c966.firebaseapp.com/)
 
-### `yarn test`
+## :sparkles: 기능
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `Firebase`를 통한 사용자 인증
+- `Firebase` 데이터베이스를 통한 실시간 메시지 전송
+- `FIrebase` 스토리지를 사용하여 이미지 업로드 
+- 새 메시지 알림 기능
+- 다른 사용자에게 다이렉트 메시지 보내기
+- 사용자 온라인/오프라인 상태 추적
+- 생성된 채널 내 메시지 검색
+- 사용자 아바타 만들기 
+- 선호 채널 즐겨찾기 기능
+- Emoji를 사용하여 이모티콘 추가
+- 로그인 및 폼 양식에 따른 요휴성 확인
 
-### `yarn build`
+## :ballot_box_with_check: 설치 및 실행
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. 저장소 내려받기
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/sangkukbae/react-redux-chat-app.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. 패키지 설치하기
 
-### `yarn eject`
+```bash
+npm install or yarn add
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Localhost 에서 실행하기
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```bash
+npm start or yarn start
+```
